@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Audio
-%define		pnam	Wav
+%define	pdir	Audio
+%define	pnam	Wav
 Summary:	Audio::Wav - Perl modules for reading and writing WAV files
 Summary(pl):	Audio::Wav - modu³y Perla do odczytu i zapisu plików WAV
 Name:		perl-Audio-Wav
