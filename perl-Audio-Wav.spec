@@ -6,7 +6,7 @@
 %define		pdir	Audio
 %define		pnam	Wav
 Summary:	Audio::Wav - Perl modules for reading and writing WAV files
-Summary(pl):	Audio::Wav - modu³y Perla do odczytu i zapisu plików WAV
+Summary(pl.UTF-8):   Audio::Wav - moduÅ‚y Perla do odczytu i zapisu plikÃ³w WAV
 Name:		perl-Audio-Wav
 Version:	0.06
 Release:	1
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 These modules provide a method of reading and writing uncompressed WAV
 files.
 
-%description -l pl
-Te modu³y udostêpniaj± mo¿liwo¶æ odczytu i zapisu nieskompresowanych
-plików WAV.
+%description -l pl.UTF-8
+Te moduÅ‚y udostÄ™pniajÄ… moÅ¼liwoÅ›Ä‡ odczytu i zapisu nieskompresowanych
+plikÃ³w WAV.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
