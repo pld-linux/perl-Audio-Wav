@@ -8,13 +8,13 @@
 Summary:	Audio::Wav - Perl modules for reading and writing WAV files
 Summary(pl.UTF-8):	Audio::Wav - moduły Perla do odczytu i zapisu plików WAV
 Name:		perl-Audio-Wav
-Version:	0.06
-Release:	2
+Version:	0.12
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Audio/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	051669f5b7b73548f7f93c2cb54cce56
+# Source0-md5:	06530e12542afb7fb3354ee5419a6dc4
 URL:		http://search.cpan.org/dist/Audio-Wav/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
